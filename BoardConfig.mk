@@ -294,6 +294,9 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Vendor Init    {{{
 TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_msm
+TARGET_LIBINIT_DEFINES_FILE := device/htc/m8qlul/init/init_m8qlul.cpp
+
 # }}}
 
 # Inherit from the proprietary version    {{{

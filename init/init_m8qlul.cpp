@@ -50,7 +50,7 @@ void vendor_load_properties()
         return;
 
 
-    /* m8qlul */
+    /* m8qlul cpp*/
 
     property_set("rild.libargs", "-d /dev/smd0");
     property_set("ro.ril.hsdpa.category", "24");
