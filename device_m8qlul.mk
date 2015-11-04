@@ -113,9 +113,8 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    com.quicinc.wbc \
-    yl_btmac
-
+    com.quicinc.wbc
+    
 # Camera
 PRODUCT_PACKAGES += \
     libmm-qcamera
@@ -152,11 +151,11 @@ PRODUCT_PACKAGES += \
     mount.exfat
 
 # FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    FMRecord \
-    libqcomfm_jni \
-    qcom.fmradio
+#PRODUCT_PACKAGES += \
+#    FM2 \
+#    FMRecord \
+#    libqcomfm_jni \
+#    qcom.fmradio
 
 # SIM stuff existent on stock
 PRODUCT_PACKAGES += \
@@ -312,9 +311,7 @@ PRODUCT_PACKAGES += \
     init.qcom.wcnss_wlan.sh \
     init.qcom.usb.htc.rc
 
-# Recovery
-PRODUCT_PACKAGES += \
-    librecovery_updater_cm
+
 
 # Releasetools / Variant script (voidzero TODO: modify to static)
 PRODUCT_COPY_FILES += \

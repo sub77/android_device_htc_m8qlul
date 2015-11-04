@@ -32,7 +32,7 @@ persist.gps.qc_nlp_in_use=1
 ro.gps.agps_provider=1
 
 # Media
-mm.enable.qcom_parser=3314291
+mm.enable.qcom_parser=1
 mm.enable.smoothstreaming=true
 media.aac_51_output_enabled=true
 drm.service.enabled=1
@@ -87,7 +87,7 @@ media.swhevccodectype=0
 mmp.enable.3g2=true
 persist.htc.audio.dqlog.dci=1
 persist.htc.audio.pcm.channels=2
-persist.htc.audio.pcm.samplerate=48000
+#persist.htc.audio.pcm.samplerate=48000
 persist.hwc.enable_vds=1
 persist.radio.fill_eons=1
 ro.apn.uservalue.protocol=IPV4V6
