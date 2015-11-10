@@ -5,9 +5,12 @@ PRODUCT_RELEASE_NAME := m8qlul
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+#Bliss Audio Mod
+BLISS_AUDIO_MOD := viper
+
+# Inherit some common BOSP stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/m8qlul/full_m8qlul.mk)
@@ -16,7 +19,7 @@ BOARD_VENDOR := htc
 BOARD_NUMBER_OF_CAMERAS := 4
 
 # Device naming
-PRODUCT_NAME := cm_m8qlul
+PRODUCT_NAME := bliss_m8qlul
 PRODUCT_DEVICE := m8qlul
 PRODUCT_BRAND := htc
 PRODUCT_MANUFACTURER := HTC

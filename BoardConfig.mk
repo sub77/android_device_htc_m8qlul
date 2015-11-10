@@ -302,4 +302,21 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 -include vendor/htc/m8qlul/BoardConfigVendor.mk
 # }}}
 
+# BlissPop Configs
+BLISS_WIPE_CACHES := 0
+BLISSIFY := true
+BLISS_O3 := true
+BLISS_GRAPHITE := true
+BLISS_STRICT := true
+BLISS_KRAIT := true
+BLISS_PIPE := true
+TARGET_TC_ROM := 5.2-linaro
+TARGET_TC_KERNEL := 4.9-sm
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+WITH_LZMA_OTA := false
+
+#SaberMod
+-include vendor/bliss/config/sm.mk
+
 # vim: ts=4 sw=4 sts=4 et fdm=marker ft=make
